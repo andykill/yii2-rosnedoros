@@ -1,0 +1,9 @@
+composer.lock
+/vendor
+vendor
+README.html
+*.tgz
+composer.phar
+
+# netbeans project files
+nbproject

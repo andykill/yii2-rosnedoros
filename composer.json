@@ -1,0 +1,25 @@
+{
+	"name": "andykill/yii2-rosnedoros",
+	"description": "Парсинг Росреестровых планов)",
+	"type": "yii2-extension",
+	"keywords": ["yii2", "extension", "Росреестра"],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "AndyKill",
+			"email": "2605113@gmail.com"
+		}
+	],
+	"minimum-stability": "stable",
+	"require": {
+		"yiisoft/yii2": "~2.0.0"
+	},
+	"extra": {
+		"bootstrap": "andykill\\rosnedoros\\Bootstrap"
+	},
+	"autoload": {
+		"psr-4": {
+			"andykill\\rosnedoros\\": "src"
+		}
+	}
+}
